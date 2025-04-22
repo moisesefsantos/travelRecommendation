@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-family: 'Times', cursive;
+  font-style: italic;
+  font-size: 24px;
+  color: #00b7ff;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #FFD700;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-box input {
+  padding: 8px;
+  border: none;
+  border-radius: 25px;
+  font-size: 12px;
+  width: 400px;
+  padding-right: 70px;
+}
+
+.search-box button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 4px 12px;
+  background-color: #0000ff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-box .clear-btn {
+  right: 10px;
+  margin-left: 5px;
+}
+
+.search-box .search-btn {
+  right: 80px;
+}
+
+.search-box button:hover {
+  background-color: #f1c40f;
+}
+
+.home-hero {
+  background-image: linear-gradient(to right, rgba(0, 187, 178, 0.8), rgba(0, 0, 255, 0) 50%), url('images/hero-background.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+  color: white;
+}
+
+
+.hero-content h1 {
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  max-width: 500px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.book-btn {
+  padding: 12px 24px;
+  background-color: #0000ff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #e0b800;
+}
+
+.social-sidebar {
+  position: fixed;
+  bottom: 150px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+}
+
+.social-sidebar .line {
+  width: 2px;
+  height: 300px;
+  background-color: white;
+  margin-bottom: 80px;
+}
+
+.social-sidebar .social-icons a {
+  display: block;
+  margin: 10px 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+.social-sidebar .social-icons a:hover {
+  transform: scale(1.2);
+}
+
+.social-sidebar .social-icons i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.social-sidebar .social-icons a:hover i {
+  color: #FFD700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-family: 'Times', cursive;
+  font-style: italic;
+  font-size: 24px;
+  color: #00b7ff;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #FFD700;
+}
+
+.about-hero {
+  background-image: linear-gradient(to right, rgba(0, 187, 178, 0.8), rgba(0, 0, 255, 0) 50%), url('images/hero-background.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 150px;
+}
+
+.hero-content h1 {
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  max-width: 500px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.team-section {
+  padding: 50px 20px;
+  background-image: linear-gradient(to right, rgba(0, 187, 178, 0.8), rgba(0, 0, 255, 0) 50%), url('images/hero-background.png'); /* Imagem com gradiente como fundo */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team-member {
+  width: 250px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: scale(1.05);
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  font-size: 16px;
+  color: #ddd;
+  flex-grow: 1;
+}
+
+.team-member .role-btn {
+  margin-top: auto;
+  padding: 8px 20px;
+  background-color: #00b7ff;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.team-member .role-btn:hover {
+  background-color: #FFD700;
+}
+
+.contact-hero {
+  background-image: linear-gradient(to right, rgba(0, 187, 178, 0.8), rgba(0, 0, 255, 0) 50%), url('images/hero-background.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 150px;
+  padding-right: 20px;
+  justify-content: flex-start;
+}
+
+.contact-form-section {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  max-width: 550px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.contact-form label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.contact-form input {
+  width: 100%;
+}
+
+.contact-form textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+.submit-btn {
+  padding: 12px 24px;
+  background-color: #0000ff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e0b800;
+}
+
+.social-sidebar {
+  position: fixed;
+  bottom: 150px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+}
+
+.social-sidebar .line {
+  width: 2px;
+  height: 300px;
+  background-color: white;
+  margin-bottom: 80px;
+}
+
+.social-sidebar .social-icons a {
+  display: block;
+  margin: 10px 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+.social-sidebar .social-icons a:hover {
+  transform: scale(1.2);
+}
+
+.social-sidebar .social-icons i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.social-sidebar .social-icons a:hover i {
+  color: #FFD700;
+}
+
+body {
+  background-image: url('images/hero-background.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+#results-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 150px;
+  z-index: 1;
+}
+
+.result {
+  background-color: rgba(31, 30, 30, 0.721);
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+  z-index: 2;
+  color: white;
+}
+
+.result h3, .result h4 {
+  color: white;
+}
+
+.result-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.result-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  object-position: center center;
+  max-width: none;
+  max-height: none;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
